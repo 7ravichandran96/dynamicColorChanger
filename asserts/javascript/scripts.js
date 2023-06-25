@@ -17,15 +17,15 @@ function some() {
         document.body.style.backgroundColor = inputValue;
         changed = document.getElementById("outColor").innerHTML = outcolor.value
         // condition to check if white color / yellow / lightblue to change its text color to black
-        if (inputValue === "WHITE" || inputValue === "YELLOW" || inputValue === "LIGHTBLUE" || inputValue === "TRANSPARENT" || inputValue === "PINK" || inputValue === "LIGHTGREEN") {
+        if (inputValue === "BLACK") {
 
-            document.body.style.color = "black";
+            document.body.style.color = "white";
         
         }
         //here default text color will be white
         else {
             
-            document.body.style.color = "white";
+            document.body.style.color = "black";
             
         }
         //clear the input value after every change
