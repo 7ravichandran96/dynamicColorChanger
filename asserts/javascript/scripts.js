@@ -37,11 +37,5 @@ function some() {
             e.preventDefault()
             
         })
-
-
-
-
-
-    }
-   
+    }   
 }
